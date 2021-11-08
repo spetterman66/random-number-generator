@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    background: aqua;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background: green;
+    color: white;
+    cursor: pointer;
+    border: solid black;
+    border-radius: 3px;
+    padding: 8px 16px;
+    zoom: 4;
+}
+button:hover, button:focus {
+    background: white;
+    color: green;
+    border: solid white;
+}
