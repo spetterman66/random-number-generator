@@ -1,51 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords"
-            content="random number generator, random number, random number generation, random number generator, random number gen">
-        <meta name="theme-color" content="#00ffee" />
-        <link rel="icon" type="image/ico" href="e.ico">
-        <meta name="description" content="Number generator - Click the button to generate a new number">
-        <link rel="manifest" href="manifest.json">
-        <style>
-            html,
-            body {
-                height: 100%;
-                background: aqua;
-                margin: 0;
-                text-align: center;
-                overflow: hidden;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="random number generator, random number, random number generation, random number generator, random number gen">
+    <meta name="theme-color" content="#00ffee" />
+    <link rel="icon" sizes="192x192" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Number generator - Click the button to generate a new number">
+    <link rel="manifest" href="manifest.json">
+    <link rel=stylesheet href="gen.css">
+    <title>Random Number Generator</title>
+</head>
 
-            button {
-                background: green;
-                color: white;
-                cursor: pointer;
-                border: 0;
-                height: 100px;
-                width: 250px;
-                font-size: 50px;
-                margin: auto auto auto;
-                position: relative;
-                top: 40%;
-                border-radius: 25px;
-                vertical-align: middle;
-                text-align: center;
-            }
-        </style>
-        <title>Random Number Generator</title>
-    </head>
-
-    <body>
-        <button id="r" onclick="window.location.reload()"></button>
-        <script>
-            document.getElementById("r").innerHTML =
-                Math.floor(Math.random() * 1000);
-        </script>
-    </body>
+<body>
+    <button id="generator" onclick="window.location.reload()"></button>    
+    <script src="gen.js"></script>
+</body>
 
 </html>
