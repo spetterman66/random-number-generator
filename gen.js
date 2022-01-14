@@ -1,2 +1,2 @@
 document.getElementById("generator").innerHTML =
-                Math.floor(Math.random() * 1000);
+                Math.floor(Math.random() * 10000);
